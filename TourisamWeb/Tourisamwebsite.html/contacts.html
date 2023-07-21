@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    box-sizing: border-box;
+    background: transparent;
+  }
+  .con{
+    width:100%;
+    height: 100vh;
+    background-image: url("/TourisamWeb/Tourisamwebsite.html/images/img2-tw.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+  }
+  form{
+    width: 90%;
+    max-width:600px;
+    position:absolute;
+
+  }
+  label{
+    height: 100%;
+   /* position: absolute;*/
+    left: 0;
+    right: 0;
+    padding: 10px;
+    color: rgb(53, 63, 52);
+    color: text;
+    
+  }
+  .inputname{
+    margin-bottom: 40px;
+    width: 50%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #131212;
+    color: rgb(18, 16, 20);
+    font-size: medium;
+   
+  }
+   button{
+    padding: 10px 0;
+    color: bisque;
+    outline: none;
+    background: transparent;
+    border: 0.5px solid #0a0a0a;
+    cursor:pointer;
+  }
+</style>
+<body>
+  <div class="con">
+<form>
+
+  <div class="inputname">
+    
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="name">
+</div>
+<div class="inputname">
+  <label for="number" class="form-label">Phone No</label>
+  <input type="text" class="form-control" id="name">
+</div>
+<div class="inputname">
+  <label for="email" class="form-label">Email</label>
+  <input type="email" class="form-control" id="name">
+</div>
+
+ <button type="submit">Submit</button>
+</form>
+  </div>
+  
+</body>
+</html>
